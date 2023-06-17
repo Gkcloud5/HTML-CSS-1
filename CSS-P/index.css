@@ -1,8 +1,33 @@
 * {
     box-sizing: border-box;
+    padding: 5px;
   }
 
 body {
     background-color: #3A3261;
-    padding: 1em;
+    padding: 5px;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.header-icon{
+  justify-content: flex-start;
+}
+.header-icon a img{
+  /* background-image: url(../Images/Icon/logo-html.png); */
+  width:12em;
+}
+
+.header-page {
+  border: 2px solid black;
+  flex-grow: 3;
+  justify-content: center;
 }
