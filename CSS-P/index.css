@@ -4,11 +4,12 @@
   }
 
 body {
-    background-color: #3A3261;
+    background-color: #8c82c2;
     padding: 5px;
-    border: 2px solid black;
+    border: 2px solid rgb(109, 0, 0);
     width: 100%;
     height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
@@ -20,6 +21,7 @@ body {
 }
 .header-icon{
   justify-content: flex-start;
+  flex-grow: 1;
 }
 .header-icon a img{
   /* background-image: url(../Images/Icon/logo-html.png); */
@@ -28,6 +30,41 @@ body {
 
 .header-page {
   border: 2px solid black;
-  flex-grow: 3;
+  flex-grow: 2;
+  /* justify-content: center;
+  display: flex; */
+}
+
+.header-page ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-page li {
+  list-style: none;
+}
+
+.header-page a{
+  color:black;
+  text-decoration: none;
+}
+
+.auth{
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  flex-grow: 1.5;
+  align-items: center;
   justify-content: center;
+}
+
+.auth button {
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.auth  #signup {
+  
+  background-color: blueviolet;
 }
