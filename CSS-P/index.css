@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 5px;
+    /* margin:5px; */
   }
 
 body {
@@ -9,7 +9,7 @@ body {
     border: 2px solid rgb(109, 0, 0);
     width: 100%;
     height: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", Helvetica, sans-serif;
 }
 
 /* Header */
@@ -17,27 +17,26 @@ body {
 .header-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  align-items: center;
 }
 .header-icon{
-  justify-content: flex-start;
-  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+  flex: 1;
 }
+
 .header-icon a img{
-  /* background-image: url(../Images/Icon/logo-html.png); */
   width:12em;
 }
 
 .header-page {
   border: 2px solid black;
   flex-grow: 2;
-  /* justify-content: center;
-  display: flex; */
 }
 
 .header-page ul {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .header-page li {
@@ -47,6 +46,16 @@ body {
 .header-page a{
   color:black;
   text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.header-page a span {
+  color: rgba(255, 255, 255, 0.795);
+}
+
+#active_a {
+  color:rgb(211, 207, 207);
 }
 
 .auth{
@@ -61,10 +70,12 @@ body {
   align-items: center;
   width: 90px;
   height: 40px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .auth  #signup {
   
   background-color: blueviolet;
 }
+
+
