@@ -30,6 +30,7 @@ body {
   /* justify-content: ; */
   display: flex;
   flex-grow: 2;
+  margin-left: 5%;
 }
 
 .header-icon a img{
@@ -186,7 +187,8 @@ body {
   height:auto;
   width:75%;
   border-radius: 20px;
-  padding: 20px 0;
+  padding: 5px 0;
+  color: var(--fonts-color);
  }
 
  .box-content {
@@ -205,7 +207,19 @@ body {
   display: flex;
   flex-direction: row;
   width: 60%;
-  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.bc1-s p {
+  margin-left: 10%;
+}
+
+.bc1-s .box-image-design {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: blueviolet;
 }
  
 .bc-2 {
@@ -216,3 +230,24 @@ body {
   /* place-self: flex-end; */
   flex-grow: 1;
 }
+
+/* Coin battle design */
+
+.content_coin_sub {
+  display: flex;
+  flex-direction: row;
+  color: var(--fonts-color);
+  font-weight: bold;
+}
+
+.content_box-2 .active-box{
+  align-items: flex-start;
+}
+.content_box-2 .box_design{
+  background-color: rgb(66,58,111);
+  height:auto;
+  width:90%;
+  border-radius: 20px;
+  padding: 5px 0;
+  color: var(--fonts-color);
+ }
