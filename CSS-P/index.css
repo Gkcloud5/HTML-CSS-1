@@ -12,7 +12,6 @@
 body {
     background-color: var(--primary-color);
     padding: 5px;
-    border: 2px solid rgb(109, 0, 0);
     /* width: 100%; */
     height: auto;
     font-family: "Arial", Helvetica, sans-serif;
@@ -374,4 +373,132 @@ progress#file {
   font-size: 1.25em;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
+}
+
+/* Coin simple filter section */
+
+.coin-switch-tag {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+}
+.Simple_filter {
+  display: flex;
+ 
+}
+
+.Simple_filter ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: var(--fonts-color);
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.Simple_filter ul li{
+   padding-left: 20px;
+   padding-bottom: 11px;
+}
+.Simple_filter li#active{
+  border-bottom: 2px solid rgb(108, 75, 190);
+  width: 100%;
+  padding-left: 0px;
+  color: #6b5bd8;
+}
+
+.simple_f1_box-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 99%
+}
+.s_f1_box{
+  background-color: rgb(66,58,111);
+  height:auto;
+  width:70%;
+  border-radius: 20px;
+  color: var(--fonts-color);
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+.simple_f_box_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0px;
+  font-weight: bold;
+}
+.f1_box_1 {
+  margin-left: 4%;
+}
+.f1_box_2 {
+  margin-right: 4%;
+}
+.simple_filter_btn {
+  margin: auto auto;
+ 
+}
+.simple_filter_btn button{
+  background-color: blueviolet;
+  padding: 15px;
+  border: 1px solid rgb(80, 22, 134);
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.filter-submit{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.filter-submit button{
+  background-color: blueviolet;
+  padding: 15px;
+  border: 1px solid rgb(80, 22, 134);
+  border-radius: 10px;
+  font-weight: bold;
+  width: 15%;
+  color: bisque;
+  margin-right: 2%;
+}
+
+/*Balance Box*/
+.Balance_div1{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.Balance_div1 button{
+  background-color: blueviolet;
+  border: 1px solid rgb(80, 22, 134);
+  border-radius: 10px;
+  font-weight: bold;
+  width: 25%;
+  height: 50px;
+  color: bisque;
+}
+
+.balance_quick{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  color: var(--fonts-color);
+  align-items: baseline;
+}
+
+#balance_plus{
+  border: 1px solid black;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+
+.balance_quick span{
+  margin-right: 10px;
 }
